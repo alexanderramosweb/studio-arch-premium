@@ -1,1 +1,50 @@
 @import "tailwindcss";
+
+/* ================================
+   RESET
+================================ */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ================================
+   TOKENS
+================================ */
+
+:root {
+  --color-background: #f5f3ef;
+  --color-text: #111111;
+  --color-accent: #c8a46b;
+
+  --container-width: 1200px;
+
+  --section-spacing: 10rem;
+}
+
+/* ================================
+   BASE
+================================ */
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+
+  font-family: Inter, sans-serif;
+
+  overflow-x: hidden;
+}
+
+/* ================================
+   LAYOUT
+================================ */
+
+.container {
+  width: min(100% - 2rem, var(--container-width));
+
+  margin-inline: auto;
+}
+
+.section {
+  padding-block: var(--section-spacing);
+}
