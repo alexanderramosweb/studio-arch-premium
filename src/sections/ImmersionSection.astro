@@ -1,0 +1,39 @@
+---
+import "../styles/components/immersionsection.css";
+import { Image } from "astro:assets";
+
+import immersionImage from "../assets/images/gallery/gallery2.webp";
+---
+
+<section class="immersion section">
+  <div class="container">
+    <p class="immersion__eyebrow" data-reveal>Arquitectura contemporánea</p>
+
+    <div class="immersion__grid">
+      <div class="immersion__media" data-reveal>
+        <Image
+          src={immersionImage}
+          alt="Interior arquitectónico premium"
+          widths={[600, 900, 1200]}
+          sizes="(max-width: 768px) 100vw, 50vw"
+          format="webp"
+          loading="lazy"
+          decoding="async"
+        />
+      </div>
+
+      <div class="immersion__content" data-reveal-group>
+        <h2 class="immersion__title split-reveal">
+          Diseñado para quienes entienden
+          <br />
+          el valor del espacio.
+        </h2>
+
+        <p class="immersion__description">
+          Una colección residencial donde arquitectura, materialidad y luz
+          natural convergen para crear una experiencia sofisticada y atemporal.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
