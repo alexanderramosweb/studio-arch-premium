@@ -1,0 +1,24 @@
+---
+const pathname = Astro.url.pathname;
+import "../styles/components/header.css";
+---
+
+<header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <a href="/" class="header__logo"> Studio Arch </a>
+
+      <nav class="header__nav">
+        <a href="/projects" class={pathname === "/projects" ? "active" : ""}>
+          Proyectos
+        </a>
+        <a href="/about" class={pathname === "/about" ? "active" : ""}>
+          Nosotros
+        </a>
+        <a href="/contact" class={pathname === "/contact" ? "active" : ""}>
+          Contacto
+        </a>
+      </nav>
+    </div>
+  </div>
+</header>
