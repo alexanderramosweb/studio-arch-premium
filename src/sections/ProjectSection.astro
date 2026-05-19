@@ -1,0 +1,47 @@
+---
+import { Image } from "astro:assets";
+
+import projectImage from "../assets/images/gallery/gallery3.webp";
+import "../styles/components/projectsection.css";
+---
+
+<section class="project section">
+  <div class="container">
+    <div class="project__intro" data-reveal-group>
+      <p class="project__eyebrow">Proyecto destacado</p>
+
+      <h2 class="project__title">
+        Residencias concebidas desde la arquitectura y la experiencia humana.
+      </h2>
+    </div>
+
+    <div class="project__grid">
+      <div class="project__media">
+        <Image
+          src={projectImage}
+          alt="Interior arquitectónico premium"
+          widths={[600, 900, 1200]}
+          sizes="(max-width: 768px) 100vw, 50vw"
+          format="webp"
+          loading="lazy"
+          decoding="async"
+        />
+      </div>
+
+      <div class="project__content">
+        <div class="project__meta">
+          <span>Bogotá, Colombia</span>
+          <span>12 Residencias Privadas</span>
+        </div>
+
+        <p class="project__description">
+          Un proyecto residencial donde la materialidad, el paisaje y la luz
+          natural construyen una experiencia sofisticada, silenciosa y
+          profundamente contemporánea.
+        </p>
+
+        <a href="#" class="project__button"> Explorar proyecto </a>
+      </div>
+    </div>
+  </div>
+</section>
