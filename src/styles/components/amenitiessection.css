@@ -1,0 +1,116 @@
+/* ================================
+   AMENITIES SECTION
+================================ */
+
+.amenities {
+  background-color: #111111;
+
+  color: white;
+}
+
+.amenities__intro {
+  max-width: 760px;
+
+  margin-bottom: 7rem;
+}
+
+.amenities__eyebrow {
+  margin-bottom: 1.5rem;
+
+  font-size: 0.75rem;
+
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.amenities__title {
+  font-size: clamp(3rem, 5vw, 5.5rem);
+
+  line-height: 0.95;
+
+  font-weight: 600;
+
+  letter-spacing: -0.05em;
+
+  text-wrap: balance;
+}
+
+.amenities__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.amenities__item {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+
+  gap: 2rem;
+
+  padding-block: 3rem;
+
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.amenities__item:last-child {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.amenities__number {
+  font-size: 0.875rem;
+
+  letter-spacing: 0.08em;
+
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.amenities__item h3 {
+  font-size: clamp(1.8rem, 3vw, 2.5rem);
+
+  font-weight: 500;
+
+  letter-spacing: -0.04em;
+}
+
+.amenities__item p {
+  max-width: 520px;
+
+  margin-top: 1rem;
+
+  font-size: 1rem;
+
+  line-height: 1.9;
+
+  color: rgba(255, 255, 255, 0.68);
+}
+
+/* ================================
+   AMENITIES RESPONSIVE
+================================ */
+
+@media (max-width: 768px) {
+  .amenities__intro {
+    margin-bottom: 4rem;
+  }
+
+  .amenities__title {
+    max-width: 12ch;
+  }
+
+  .amenities__item {
+    grid-template-columns: 1fr;
+
+    gap: 1rem;
+
+    padding-block: 2rem;
+  }
+
+  .amenities__item h3 {
+    font-size: 1.8rem;
+  }
+
+  .amenities__item p {
+    line-height: 1.8;
+  }
+}
