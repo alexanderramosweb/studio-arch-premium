@@ -1,0 +1,68 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import aboutDesktop from "/src/assets//images/about/about-desktop.webp";
+import aboutMobile from "/src/assets//images/about/about-mobile.webp";
+
+import "../styles/components/about.css";
+---
+
+<BaseLayout title="Nosotros">
+  <section class="about-hero">
+    <div class="about-hero__media">
+      <picture>
+        <source srcset={aboutMobile.src} media="(max-width: 768px)" />
+
+        <img
+          src={aboutDesktop.src}
+          alt="Arquitectura moderna premium"
+          loading="eager"
+          fetchpriority="high"
+          decoding="async"
+        />
+      </picture>
+    </div>
+
+    <div class="about-hero__overlay"></div>
+
+    <div class="container">
+      <div class="about-hero__content hero__content--animated">
+        <p class="about-hero__eyebrow">Studio Arch</p>
+
+        <h1 class="about-hero__title split-reveal">
+          Arquitectura concebida desde la emoción, la materia y el tiempo.
+        </h1>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-story section">
+    <div class="container">
+      <div class="about-story__grid">
+        <div class="about-story__content">
+          <p class="about-story__eyebrow">Filosofía</p>
+
+          <h2 class="about-story__title split-reveal">
+            Diseñamos espacios que trascienden la función.
+          </h2>
+        </div>
+
+        <div class="about-story__text">
+          <p>
+            Cada proyecto nace desde una búsqueda por crear experiencias
+            arquitectónicas silenciosas, sofisticadas y profundamente humanas.
+          </p>
+
+          <p>
+            Nuestra visión combina materialidad, luz natural y proporciones
+            cuidadosamente estudiadas para construir espacios atemporales.
+          </p>
+
+          <p>
+            Entendemos la arquitectura como una experiencia emocional capaz de
+            transformar la forma en que las personas habitan el espacio.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
