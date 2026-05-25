@@ -1,0 +1,151 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { Image } from "astro:assets";
+
+import { projects } from "../../data/projects";
+import "../../styles/components/slug.css";
+
+export async function getStaticPaths() {
+  return projects.map((project) => ({
+    params: {
+      slug: project.slug,
+    },
+
+    props: {
+      project,
+    },
+  }));
+}
+
+const { project } = Astro.props;
+---
+
+<BaseLayout title={project.title}>
+  <section class="project-hero">
+    <div class="project-hero__media" data-reveal>
+      <picture>
+        <source
+          media="(max-width: 768px)"
+          srcset={project.heroImage.mobile.src}
+        />
+
+        <Image
+          src={project.heroImage.desktop}
+          alt={project.title}
+          widths={[768, 1200, 1600, 1920]}
+          sizes="100vw"
+          format="webp"
+          priority
+          loading="eager"
+          decoding="sync"
+          quality={82}
+          class="project-hero__image"
+        />
+      </picture>
+    </div>
+
+    <div class="project-hero__overlay"></div>
+
+    <div class="container">
+      <div class="project-hero__content" data-reveal>
+        <p class="project-hero__location">
+          {project.location}
+        </p>
+
+        <h1 class="project-hero__title">
+          {project.title}
+        </h1>
+      </div>
+    </div>
+  </section>
+
+  <section class="project-story section">
+    <div class="container">
+      <div class="project-story__grid">
+        <div class="project-story__content" data-reveal>
+          <p class="project-story__eyebrow">Concepto Arquitectónico</p>
+
+          <h2 class="project-story__title">
+            {project.title}
+          </h2>
+
+          <p class="project-story__text">
+            {project.description}
+          </p>
+        </div>
+
+        <div class="project-story__media" data-reveal>
+          <Image
+            src={project.storyImage}
+            alt={project.title}
+            widths={[600, 900, 1200]}
+            sizes="(max-width: 768px) 100vw, 50vw"
+            format="webp"
+            loading="lazy"
+            decoding="async"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="project-gallery section">
+    <div class="container">
+      <div class="project-gallery__grid">
+        {
+          project.gallery?.map((image, index) => (
+            <div
+              class={`project-gallery__item ${index % 2 === 0 ? "project-gallery__item--offset" : ""}`}
+            >
+              <Image
+                src={image}
+                alt={project.title}
+                widths={[600, 900, 1200]}
+                sizes="(max-width: 768px) 100vw, 50vw"
+                format="webp"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+  <section class="project-breakout" data-reveal>
+    <picture>
+      <source
+        media="(max-width: 768px)"
+        srcset={project.heroImage.mobile.src}
+      />
+
+      <Image
+        src={project.heroImage.desktop}
+        alt={project.title}
+        widths={[768, 1200, 1600, 1920]}
+        sizes="100vw"
+        format="webp"
+        loading="lazy"
+        decoding="async"
+        quality={82}
+        class="project-hero__image"
+      />
+    </picture>
+    <div class="section-transition"></div>
+  </section>
+  <section class="project-details section">
+    <div class="container" data-reveal>
+      <div class="project-details__grid">
+        <div class="project-details__sticky">
+          <p class="project-details__eyebrow">Materialidad & Espacio</p>
+
+          <h2 class="project-details__title">
+            {project.detailsTitle}
+          </h2>
+        </div>
+        <div class="project-details__content">
+          {project.details?.map((paragraph) => <p>{paragraph}</p>)}
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
