@@ -1,0 +1,46 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { projects } from "../data/projects";
+import { Image } from "astro:assets";
+import "../styles//components/projects.css";
+---
+
+<BaseLayout title="Proyectos | Studio Arch">
+  <section class="projects-showcase section">
+    <div class="container">
+      <div class="projects-showcase__grid">
+        {
+          projects.map((project) => (
+            <a href={`/projects/${project.slug}`} class="project-card">
+              <div class="project-card__media" data-reveal>
+                <picture>
+                  <source
+                    media="(max-width: 768px)"
+                    srcset={project.heroImage.mobile.src}
+                  />
+
+                  <Image
+                    src={project.heroImage.desktop}
+                    alt={project.title}
+                    widths={[600, 900, 1200]}
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                    format="webp"
+                    loading="lazy"
+                    decoding="async"
+                    quality={85}
+                  />
+                </picture>
+              </div>
+
+              <div class="project-card__content">
+                <p class="project-card__location">{project.location}</p>
+
+                <h2 class="project-card__title">{project.title}</h2>
+              </div>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+</BaseLayout>

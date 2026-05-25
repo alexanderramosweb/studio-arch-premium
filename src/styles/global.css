@@ -48,3 +48,71 @@ body {
 .section {
   padding-block: var(--section-spacing);
 }
+/* ================================
+   SECTION TRANSITION
+================================ */
+
+.section-transition {
+  height: 240px;
+
+  background: linear-gradient(to bottom, #f5f3ef 0%, white 100%);
+}
+
+/* ================================
+   SPLIT TEXT
+================================ */
+
+.split-reveal {
+  overflow: hidden;
+}
+
+/* ================================
+   GLOBAL RESPONSIVE SYSTEM
+================================ */
+
+@media (max-width: 1024px) {
+  .section {
+    padding-block: 7rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding-block: 5rem;
+  }
+
+  .container {
+    width: min(100% - 2rem, 1400px);
+  }
+}
+
+@media (max-width: 480px) {
+  .section {
+    padding-block: 4rem;
+  }
+}
+
+/* ================================
+   GLOBAL INTERACTION SYSTEM
+================================ */
+
+a,
+button,
+.project-card,
+input,
+textarea {
+  transition:
+    transform 0.45s cubic-bezier(0.22, 1, 0.36, 1),
+    opacity 0.3s ease,
+    background-color 0.3s ease,
+    border-color 0.3s ease,
+    color 0.3s ease,
+    box-shadow 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.split-line-wrapper {
+  overflow: hidden;
+}
+
+.split-line {
+  will-change: transform;
+}
