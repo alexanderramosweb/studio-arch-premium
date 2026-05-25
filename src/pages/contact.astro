@@ -1,0 +1,63 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import "../styles/components/contact.css";
+---
+
+<BaseLayout title="Contacto">
+  <section class="contact-hero">
+    <div class="container">
+      <div class="contact-hero__content hero__content--animated">
+        <p class="contact-hero__eyebrow">Contacto Privado</p>
+
+        <h1 class="contact-hero__title split-reveal">
+          Iniciemos una conversación sobre arquitectura contemporánea.
+        </h1>
+
+        <p class="contact-hero__description">
+          Agenda una presentación privada y conoce nuestra visión, proyectos y
+          experiencias residenciales cuidadosamente concebidas.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-form section">
+    <div class="container">
+      <div class="contact-form__grid">
+        <div class="contact-form__intro" data-reveal>
+          <p class="contact-form__eyebrow">Solicitud</p>
+
+          <h2 class="contact-form__title split-reveal">
+            Cuéntanos sobre tu proyecto o interés residencial.
+          </h2>
+        </div>
+
+        <form class="contact-form__form">
+          <div class="contact-form__field">
+            <label>Nombre</label>
+
+            <input type="text" placeholder="Tu nombre" />
+          </div>
+
+          <div class="contact-form__field">
+            <label>Email</label>
+
+            <input type="email" placeholder="nombre@email.com" />
+          </div>
+
+          <div class="contact-form__field">
+            <label>Mensaje</label>
+
+            <textarea
+              rows="6"
+              placeholder="Cuéntanos sobre tu proyecto o interés."></textarea>
+          </div>
+
+          <button type="submit" class="contact-form__button">
+            Solicitar presentación
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
