@@ -26,5 +26,12 @@ const { title = "Studio Arch" } = Astro.props;
       <slot />
     </main>
     <Footer />
+    <!-- ================================
+           MAIN SCRIPT
+      ================================= -->
+
+    <script>
+      import("../scripts/main.ts");
+    </script>
   </body>
 </html>
