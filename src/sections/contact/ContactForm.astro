@@ -1,0 +1,100 @@
+---
+import "../../styles/components/contactform.css";
+---
+
+<section class="contact-form section">
+  <div class="container">
+    <div class="contact-form__grid">
+      <div class="contact-form__intro" data-reveal>
+        <p class="contact-form__eyebrow">Solicitud</p>
+
+        <h2 class="contact-form__title split-reveal">
+          Cuéntanos sobre tu proyecto o interés residencial.
+        </h2>
+      </div>
+
+      <form class="contact-form__form" id="contactForm">
+        <div class="contact-form__field">
+          <label>Nombre</label>
+
+          <input type="text" name="name" placeholder="Tu nombre" required />
+        </div>
+
+        <div class="contact-form__field">
+          <label>Email</label>
+
+          <input
+            type="email"
+            name="email"
+            placeholder="nombre@email.com"
+            required
+          />
+        </div>
+
+        <div class="contact-form__field">
+          <label>Mensaje</label>
+
+          <textarea
+            name="message"
+            rows="6"
+            placeholder="Cuéntanos sobre tu proyecto o interés."
+            required></textarea>
+        </div>
+
+        <button type="submit" class="contact-form__button">
+          Solicitar presentación
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<script is:inline>
+  const form = document.getElementById("contactForm");
+
+  if (!(form instanceof HTMLFormElement)) {
+    console.log("NO ES FORM");
+  } else {
+    form.addEventListener("submit", async (event) => {
+      event.preventDefault();
+
+      const submitButton = form.querySelector("button");
+
+      if (!(submitButton instanceof HTMLButtonElement)) return;
+
+      submitButton.disabled = true;
+      submitButton.textContent = "Enviando...";
+
+      try {
+        const formData = new FormData(form);
+
+        const data = {
+          name: formData.get("name"),
+          email: formData.get("email"),
+          message: formData.get("message"),
+        };
+
+        const response = await fetch("/api/contact", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(data),
+        });
+
+        const result = await response.json();
+
+        alert(result.message);
+
+        form.reset();
+      } catch (error) {
+        console.error(error);
+
+        alert("Ocurrió un error");
+      } finally {
+        submitButton.disabled = false;
+        submitButton.textContent = "Solicitar presentación";
+      }
+    });
+  }
+</script>

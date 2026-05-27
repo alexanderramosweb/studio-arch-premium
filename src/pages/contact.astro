@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import ContactForm from "../sections/contact/ContactForm.astro";
 import "../styles/components/contact.css";
 ---
 
@@ -20,44 +21,5 @@ import "../styles/components/contact.css";
       </div>
     </div>
   </section>
-
-  <section class="contact-form section">
-    <div class="container">
-      <div class="contact-form__grid">
-        <div class="contact-form__intro" data-reveal>
-          <p class="contact-form__eyebrow">Solicitud</p>
-
-          <h2 class="contact-form__title split-reveal">
-            Cuéntanos sobre tu proyecto o interés residencial.
-          </h2>
-        </div>
-
-        <form class="contact-form__form">
-          <div class="contact-form__field">
-            <label>Nombre</label>
-
-            <input type="text" placeholder="Tu nombre" />
-          </div>
-
-          <div class="contact-form__field">
-            <label>Email</label>
-
-            <input type="email" placeholder="nombre@email.com" />
-          </div>
-
-          <div class="contact-form__field">
-            <label>Mensaje</label>
-
-            <textarea
-              rows="6"
-              placeholder="Cuéntanos sobre tu proyecto o interés."></textarea>
-          </div>
-
-          <button type="submit" class="contact-form__button">
-            Solicitar presentación
-          </button>
-        </form>
-      </div>
-    </div>
-  </section>
+  <ContactForm />
 </BaseLayout>
