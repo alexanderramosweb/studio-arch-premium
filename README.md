@@ -1,43 +1,23 @@
-# Astro Starter Kit: Minimal
+# 🏛️ Studio Arch Premium — Landing Page de Lujo
 
-```sh
-npm create astro@latest -- --template minimal
-```
+Una landing page premium diseñada para un estudio de arquitectura contemporánea. El proyecto combina un diseño sofisticado con animaciones modernas y un rendimiento muy rápido.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+🎯 **Puedes ver la página en vivo aquí:** [PEGA_AQUÍ_EL_ENLACE_DE_NETLIFY]
 
-## 🚀 Project Structure
+---
 
-Inside of your Astro project, you'll see the following folders and files:
+## ✨ Características de la Página
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+- ⚡ **Carga instantánea:** Desarrollado con Astro 6 para que la página abra al instante.
+- 🎨 **Diseño moderno:** Estilos creados con la última versión de Tailwind CSS (v4).
+- 🪄 **Animaciones fluidas:** Efectos visuales de alta calidad usando GSAP y Lenis para un efecto de scroll suave.
+- 🔍 **Lista para Google:** Configurada con etiquetas SEO y un mapa del sitio (Sitemap) para aparecer en los buscadores.
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+---
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+## 🛠️ Tecnologías que usé
 
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+* **Framework:** Astro v6
+* **Estilos:** Tailwind CSS v4
+* **Animaciones:** GSAP y Lenis Smooth Scroll
+* **Lenguaje:** TypeScript
