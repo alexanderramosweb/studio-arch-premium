@@ -2,7 +2,7 @@
 
 Una landing page premium diseñada para un estudio de arquitectura contemporánea. El proyecto combina un diseño sofisticado con animaciones modernas y un rendimiento muy rápido.
 
-🎯 **Puedes ver la página en vivo aquí:** studio-arch-premium.netlify.app
+🎯 **Puedes ver la página en vivo aquí:** [studio-arch-premium.netlify.app](https://studio-arch-premium.netlify.app/)
 
 ---
 
