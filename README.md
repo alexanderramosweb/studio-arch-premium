@@ -32,9 +32,11 @@ Web site premium para un estudio de arquitectura contemporánea, con animaciones
 
 ## Experiencia Cinética en Acción
 
-<p align="center">
-  <video src="./public/readme-media/vid-studio.mp4" autoplay loop muted playsinline width="100%"></video>
-</p>
+
+<video src="https://github.com/user-attachments/assets/d4e76c9a-f7f1-4d17-9182-37b6ef241bc0" autoplay loop muted width="100%"></video>
+
+
+
 
 ---
 
