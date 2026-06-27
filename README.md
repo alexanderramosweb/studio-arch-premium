@@ -1,12 +1,18 @@
 # Studio Arch Premium | Portfolio de Arquitectura Contemporánea
 
-Web site premium para un estudio de arquitectura contemporánea, con animaciones cinéticas y experiencia visual inmersiva para atraer clientes de proyectos residenciales de lujo.
+## Descripción
+
+Studio Arch Premium es una solución digital de alta gama diseñada y desarrollada para el sector inmobiliario y de la construcción de lujo.
+
+Este proyecto unifica la dirección de arte en **Figma** con la potencia técnica de **Astro 6** y **GSAP**. Cada transición, scroll e interacción visual ha sido meticulosamente programada para transmitir la precisión, el rigor estético y la exclusividad propios de la arquitectura de autor, logrando una experiencia inmersiva que eleva el valor percibido de la marca sin comprometer el rendimiento en la web.
+
+**Objetivo:** Captar el interés de clientes de alto perfil mediante una narrativa visual fluida, un rendimiento impecable y una conversión estratégica optimizada para el sector de la construcción de lujo.
 
 ---
 
 ## Acceso en Vivo
 
-[▶️ studio-arch-premium.netlify.app](https://studio-arch-premium.netlify.app/)
+<a href="https://studio-arch-premium.netlify.app/" target="_blank" rel="noopener noreferrer">▶️ studio-arch-premium.netlify.app</a>
 
 ---
 
@@ -33,7 +39,7 @@ Web site premium para un estudio de arquitectura contemporánea, con animaciones
 ## Experiencia Cinética en Acción
 
 <p align="center">
-  <video src="https://github.com/user-attachments/assets/d4e76c9a-f7f1-4d17-9182-37b6ef241bc0" autoplay loop muted width="60%"></video>
+  <video src="https://github.com/user-attachments/assets/d4e76c9a-f7f1-4d17-9182-37b6ef241bc0" autoplay loop muted width="80%"></video>
 </p>
 
 ---
@@ -61,6 +67,13 @@ El sitio fue construido con un énfasis en la experiencia del usuario: cada movi
 ---
 
 ## Stack Tecnológico
+
+### UI/UX & Prototipado
+
+<p>
+  <img src="https://img.shields.io/badge/Figma-111111?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
+  <img src="https://img.shields.io/badge/Dirección%20de%20Arte-111111?style=for-the-badge&logo=adobelightroom&logoColor=white" alt="Dirección de Arte" />
+</p>
 
 ### Framework & Core
 
@@ -528,11 +541,11 @@ npm run dev
 
 ## 🔗 Enlaces del Proyecto
 
-| Recurso                                                                                                                     | Enlace                                                                                                       |
-| :-------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------- |
-| <img src="https://img.shields.io/badge/Sitio_en_Vivo-000000?style=for-the-badge&logo=netlify&logoColor=00C7B7" height="25"> | [studio-arch-premium.netlify.app](https://studio-arch-premium.netlify.app/)                                  |
-| <img src="https://img.shields.io/badge/Repositorio-000000?style=for-the-badge&logo=github&logoColor=white" height="25">     | [github.com/alexanderramosweb/studio-arch-premium](https://github.com/alexanderramosweb/studio-arch-premium) |
-| <img src="https://img.shields.io/badge/Producción-000000?style=for-the-badge&logo=netlify&logoColor=00C7B7" height="25">    | Desplegado en Netlify (auto-deploy en cada push)                                                             |
+| Recurso                                                                                                                     | Enlace                                                                                                                                           |
+| :-------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="https://img.shields.io/badge/Sitio_en_Vivo-000000?style=for-the-badge&logo=netlify&logoColor=00C7B7" height="25"> | <a href="https://studio-arch-premium.netlify.app/" target="_blank" rel="noopener noreferrer">studio-arch-premium.netlify.app</a>                 |
+| <img src="https://img.shields.io/badge/Repositorio-000000?style=for-the-badge&logo=github&logoColor=white" height="25">     | <a href="https://github.com/alexanderramosweb/studio-arch-premium" target="_blank" rel="noopener noreferrer">studio-arch-premium.netlify.app</a> |
+| <img src="https://img.shields.io/badge/Producción-000000?style=for-the-badge&logo=netlify&logoColor=00C7B7" height="25">    | Desplegado en Netlify (auto-deploy en cada push)                                                                                                 |
 
 ---
 
@@ -547,8 +560,9 @@ Este desarrollo demuestra habilidades avanzadas en:
 
 Si buscas un proyecto con impacto visual, rendimiento excepcional o asesoría en desarrollo arquitectónico y colaboraciones, puedes contactarme directamente:
 
-| Contacto                                                                                                               | Enlace                                                           |
-| :--------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------- |
-| <img src="https://img.shields.io/badge/Gmail-000000?style=for-the-badge&logo=gmail&logoColor=white" height="25">       | [alexander.digitaldev@gmail.com](alexander.digitaldev@gmail.com) |
-| <img src="https://img.shields.io/badge/WhatsApp-000000?style=for-the-badge&logo=whatsapp&logoColor=white" height="25"> | [+57 3127087551](https://wa.me/+573127087551)                    |
-| <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white" height="25"> | [linkedin.com/in/TUPERFIL](https://linkedin.com/in/TUPERFIL)     |
+| Contacto                                                                                                               | Enlace                                                                                                                       |
+| :--------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------- |
+| <img src="https://img.shields.io/badge/Gmail-000000?style=for-the-badge&logo=gmail&logoColor=white" height="25">       | <a href="mailto:alexander.digitaldev@gmail.com" target="_blank" rel="noopener noreferrer">alexander.digitaldev@gmail.com</a> |
+| <img src="https://img.shields.io/badge/WhatsApp-000000?style=for-the-badge&logo=whatsapp&logoColor=white" height="25"> | <a href="https://wa.me/573127087551" target="_blank" rel="noopener noreferrer">+57 3127087551</a>                            |
+| <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white" height="25"> | <a href="https://linkedin.com/in/TUPERFIL" target="_blank" rel="noopener noreferrer">linkedin.com/in/TUPERFIL</a>            |
+| <img src="https://img.shields.io/badge/Behance-000000?style=for-the-badge&logo=behance&logoColor=0057ff" height="25">  | <a href="https://behance.net/TUPERFIL" target="_blank" rel="noopener noreferrer">Caso de Estudio UI/UX en Behance</a>        |
