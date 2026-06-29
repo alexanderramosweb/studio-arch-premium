@@ -1,24 +1,29 @@
-# Studio Arch Premium | Portfolio de Arquitectura Contemporánea
+# Studio Arch Premium
 
-## Descripción
+Proyecto Frontend para un estudio de arquitectura contemporánea, desarrollado con Astro y enfocado en ofrecer una experiencia visual inmersiva sin comprometer el rendimiento.
 
-Studio Arch Premium es una solución digital de alta gama diseñada y desarrollada para el sector inmobiliario y de la construcción de lujo.
+Studio Arch Premium fue desarrollado utilizando **Astro** con generación estática (SSG), siguiendo una arquitectura basada en componentes y un enfoque **Mobile First** para maximizar el rendimiento, la accesibilidad y el SEO.
 
-Este proyecto unifica la dirección de arte en **Figma** con la potencia técnica de **Astro 6** y **GSAP**. Cada transición, scroll e interacción visual ha sido meticulosamente programada para transmitir la precisión, el rigor estético y la exclusividad propios de la arquitectura de autor, logrando una experiencia inmersiva que eleva el valor percibido de la marca sin comprometer el rendimiento en la web.
+El proyecto integra animaciones avanzadas con **GSAP** y **Lenis**, optimización de imágenes, carga diferida de recursos y buenas prácticas de desarrollo para construir una interfaz moderna, escalable y preparada para producción.
 
-**Objetivo:** Captar el interés de clientes de alto perfil mediante una narrativa visual fluida, un rendimiento impecable y una conversión estratégica optimizada para el sector de la construcción de lujo.
+## Objetivos del Proyecto
+
+- Desarrollar una experiencia visual moderna e inmersiva.
+- Mantener un rendimiento sobresaliente en Desktop y Mobile.
+- Aplicar una arquitectura Frontend limpia, reutilizable y fácil de mantener.
+- Optimizar Core Web Vitals y SEO sin sacrificar la experiencia de usuario.
 
 ---
 
-## Acceso en Vivo
+## Enlaces del Proyecto
 
-<a href="https://studio-arch-premium.netlify.app/" target="_blank" rel="noopener noreferrer">▶️ studio-arch-premium.netlify.app</a>
+| Recurso                                                                                                                     | Enlace                                                                                                                               |
+| :-------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="https://img.shields.io/badge/Sitio_en_Vivo-000000?style=for-the-badge&logo=netlify&logoColor=00C7B7" height="25"> | <a href="https://studio-arch-premium.netlify.app/" target="_blank" rel="noopener noreferrer">studio-arch-premium.netlify.app</a>     |
+| <img src="https://img.shields.io/badge/Repositorio-000000?style=for-the-badge&logo=github&logoColor=white" height="25">     | <a href="https://github.com/alexanderramosweb/studio-arch-premium" target="_blank" rel="noopener noreferrer">studio-arch-premium</a> |
+| <img src="https://img.shields.io/badge/Producción-000000?style=for-the-badge&logo=netlify&logoColor=00C7B7" height="25">    | Desplegado en Netlify (auto-deploy en cada push)                                                                                     |
 
----
-
-## Experiencia Visual
-
-### Vista General - Responsivo
+## Vista General
 
 ![Studio Arch - Vista Responsiva en Desktop, Tablet y Mobile](./public/readme-media/mockup.webp)
 
@@ -36,46 +41,41 @@ Este proyecto unifica la dirección de arte en **Figma** con la potencia técnic
 
 ---
 
-## Experiencia Cinética en Acción
+## Animaciones
 
 <p align="center">
   <video src="https://github.com/user-attachments/assets/d4e76c9a-f7f1-4d17-9182-37b6ef241bc0" autoplay loop muted width="80%"></video>
 </p>
 
----
-
-## Descripción
-
-Studio Arch Premium es una solución digital diseñada para un estudio de arquitectura contemporánea que requería una presencia web que reflejara la precisión técnica y el rigor estético de sus proyectos residenciales de lujo.
-
-El sitio fue construido con un énfasis en la experiencia del usuario: cada movimiento de scroll, cada transición, cada interacción visual comunica deliberadamente la filosofía del estudio. La navegación es fluida, las animaciones son precisas, y el rendimiento es excepcional incluso con complejas capas de JavaScript.
-
-**Objetivo:** Impresionar a arquitectos, inversores y compradores potenciales mediante una experiencia digital que eleva el estudio como referente en diseño residencial contemporáneo.
+Las animaciones fueron desarrolladas con **GSAP** y **Lenis**, priorizando una navegación fluida sin afectar el rendimiento ni las métricas de Core Web Vitals.
 
 ---
 
-## Características Técnicas
+## Características
 
-- Animaciones GSAP avanzadas con ScrollTrigger sincronizado
-- Scroll suave mediante Lenis, sin sacrificar control de rendimiento
-- Lazy loading inteligente para galería de proyectos
-- Tipografía jerárquica diseñada para narrativa visual
-- SEO técnico optimizado con schema.json para arquitectura
-- Rendimiento de 98+ en PageSpeed Insights con stack complejo de animaciones
-- Diseño responsive adaptado a velocidades de scroll variables en mobile
+- Arquitectura basada en componentes con Astro.
+- Desarrollo siguiendo un enfoque Mobile First.
+- Generación estática (SSG).
+- Optimización para Core Web Vitals.
+- Optimización de imágenes en formato WebP.
+- Lazy Loading de recursos.
+- HTML semántico.
+- Metadatos Open Graph.
+- Twitter Cards.
+- Canonical URL.
 
 ---
 
 ## Stack Tecnológico
 
-### UI/UX & Prototipado
+### Design
 
 <p>
   <img src="https://img.shields.io/badge/Figma-111111?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
-  <img src="https://img.shields.io/badge/Dirección%20de%20Arte-111111?style=for-the-badge&logo=adobelightroom&logoColor=white" alt="Dirección de Arte" />
+  
 </p>
 
-### Framework & Core
+### Frontend
 
 <p>
   <img src="https://img.shields.io/badge/Astro%206-111111?style=for-the-badge&logo=astro&logoColor=white" alt="Astro 6" />
@@ -83,282 +83,167 @@ El sitio fue construido con un énfasis en la experiencia del usuario: cada movi
   <img src="https://img.shields.io/badge/JavaScript-111111?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript" />
 </p>
 
-### Estilos & UI
-
 <p>
-  <img src="https://img.shields.io/badge/Tailwind%20CSS%20v4-111111?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS v4" />
+  <img src="https://img.shields.io/badge/Tailwind-111111?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind " />
   <img src="https://img.shields.io/badge/CSS3-111111?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
   <img src="https://img.shields.io/badge/Mobile--First-111111?style=for-the-badge&logo=responsive&logoColor=white" alt="Mobile First" />
 </p>
 
-### Librerías de Animación
+### Animación
 
 <p>
   <img src="https://img.shields.io/badge/GSAP-111111?style=for-the-badge&logo=javascript&logoColor=white" alt="GSAP" />
   <img src="https://img.shields.io/badge/Lenis%20Scroll-111111?style=for-the-badge&logo=javascript&logoColor=white" alt="Lenis" />
 </p>
 
-### Herramientas & Deploy
+### Deploy
 
 <p>
   <img src="https://img.shields.io/badge/Netlify-111111?style=for-the-badge&logo=netlify&logoColor=white" alt="Netlify" />
   <img src="https://img.shields.io/badge/Git-111111?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=white" alt="Git Hub"> 
 </p>
 
 ---
 
-## Métricas de Rendimiento
+## Rendimiento
 
-### PageSpeed Insights
+El proyecto fue optimizado siguiendo las recomendaciones de Lighthouse y Core Web Vitals para garantizar tiempos de carga rápidos, estabilidad visual y una experiencia fluida tanto en Desktop como en dispositivos móviles.
 
-**Desktop**
+### Lighthouse
 
-- Rendimiento: 98/100
-- Accesibilidad: 100/100
-- SEO: 100/100
-- Mejores Prácticas: 100/100
-
-**Mobile**
-
-- Rendimiento: 94/100
-- Accesibilidad: 100/100
-- SEO: 100/100
-- Mejores Prácticas: 100/100
+| Categoría      | Desktop | Mobile  |
+| :------------- | :-----: | :-----: |
+| Performance    | **98**  | **94**  |
+| Accessibility  | **100** | **100** |
+| Best Practices | **100** | **100** |
+| SEO            | **100** | **100** |
 
 ### Core Web Vitals
 
-| Métrica                        | Valor   | Estado          |
-| ------------------------------ | ------- | --------------- |
-| LCP (Largest Contentful Paint) | < 1.5s  | Óptimo          |
-| FCP (First Contentful Paint)   | < 0.8s  | Óptimo          |
-| CLS (Cumulative Layout Shift)  | < 0.05  | Excelente       |
-| TBT (Total Blocking Time)      | < 200ms | 60fps sostenido |
+| Métrica | Resultado    |
+| :------ | :----------- |
+| LCP     | **< 1.5 s**  |
+| FCP     | **< 0.8 s**  |
+| CLS     | **< 0.05**   |
+| TBT     | **< 200 ms** |
 
-### Nota sobre Optimización
+## Rendimiento
 
-Alcanzar PageSpeed 98+ con GSAP + Lenis es un logro técnico significativo. Sitios típicos con animaciones complejas rondan 80-90. Esta puntuación demuestra optimización avanzada en:
-
-- Carga lazy de GSAP (solo módulos utilizados)
-- Inicialización de Lenis sin memory leaks
-- Deshabilitación de animaciones en dispositivos con preferencia de movimiento reducido
-- Compresión de imágenes con WebP y srcset
-- Eliminación de CSS no utilizado
+<div align="center">
+  <img src="./public/readme-media/page-speed-desktop.webp" alt="Ordenador" width="49%" />
+  <img src="./public/readme-media/page-speed-movil.webp" alt="Móvil" width="49%" />
+</div>
 
 ---
 
 ## Estructura del Proyecto
 
-```
-studio-arch-premium/
-├───public
-│   │   favicon.svg
-│   │   og-cover.webp
-│   │   robots.txt
-│   │
-│   └───readme-media
-│           capture1.webp
-│           capture2.webp
-│           capture3.webp
-│           capture4.webp
-│           mockup.webp
-│           vid-studio.mp4
+```text
+studio-arch-premium
 │
-└───src
-    ├───animations
-    │       gsap.ts
-    │       lenis.ts
-    │       reveal.ts
-    │
-    ├───assets
-    │   └───images
-    │       ├───about
-    │       │       about-desktop.webp
-    │       │       about-mobile.webp
-    │       │
-    │       ├───gallery
-    │       │       gallery1.webp
-    │       │       gallery2.webp
-    │       │       gallery3.webp
-    │       │
-    │       ├───hero
-    │       │       hero-desktop.webp
-    │       │       hero-mobile.webp
-    │       │
-    │       └───projects
-    │           ├───casa-aurea
-    │           │       gallery-1.webp
-    │           │       gallery-2.webp
-    │           │       gallery-3.webp
-    │           │       hero-desktop.webp
-    │           │       hero-mobile.webp
-    │           │       story.webp
-    │           │
-    │           ├───lumen-residences
-    │           │       gallery-1.webp
-    │           │       gallery-2.webp
-    │           │       gallery-3.webp
-    │           │       hero-desktop.webp
-    │           │       hero-mobile.webp
-    │           │       story.webp
-    │           │
-    │           └───vista-norte
-    │                   gallery-1.webp
-    │                   gallery-2.webp
-    │                   gallery-3.webp
-    │                   hero-desktop.webp
-    │                   hero-mobile.webp
-    │                   story.webp
-    │
-    ├───components
-    │       Footer.astro
-    │       Header.astro
-    │
-    ├───data
-    │       projects.ts
-    │
-    ├───layouts
-    │       BaseLayout.astro
-    │
-    ├───pages
-    │   │   about.astro
-    │   │   contact.astro
-    │   │   index.astro
-    │   │   projects.astro
-    │   │
-    │   ├───api
-    │   │       contact.ts
-    │   │
-    │   └───projects
-    │           [slug].astro
-    │
-    ├───scripts
-    │       contact-form.ts
-    │       main.ts
-    │
-    ├───sections
-    │   │   AmenitiesSection.astro
-    │   │   CtaSection.astro
-    │   │   HeroSection.astro
-    │   │   ImmersionSection.astro
-    │   │   ProjectSection.astro
-    │   │   TestimonialSection.astro
-    │   │
-    │   └───contact
-    │           ContactForm.astro
-    │
-    └───styles
-        │   global.css
-        │
-        └───components
-                about.css
-                amenitiessection.css
-                contact.css
-                contactform.css
-                ctasection.css
-                footer.css
-                header.css
-                herosection.css
-                immersionsection.css
-                projects.css
-                projectsection.css
-                slug.css
-                testimonialsection.css
+├── public/
+│   └── readme-media/
+│
+├── src/
+│   ├── animations/
+│   ├── assets/
+│   ├── components/
+│   ├── data/
+│   ├── layouts/
+│   ├── pages/
+│   ├── scripts/
+│   ├── sections/
+│   └── styles/
+│
 ├── astro.config.mjs
-├── tailwind.config.mjs
+├── package.json
 ├── tsconfig.json
-└── package.json
+└── tailwind.config.mjs
 ```
 
----
-
-## Decisiones Técnicas Justificadas
-
-### Astro 6 en lugar de Next.js
-
-**Decisión:** Astro con renderizado estático (SSG)
-
-**Justificación:**
-
-- El contenido del portafolio no cambia en tiempo real
-- Astro genera HTML estático = 0 JavaScript innecesario en componentes visuales
-- Permite que GSAP se cargue y ejecute sin competencia de hidratación de React
-- Resultado: FCP más rápido, LCP consistente, capacidad de mantener 98 PageSpeed
-
-Next.js estaría sobre-engineered para este caso de uso.
+La estructura sigue una arquitectura modular basada en componentes, separando responsabilidades entre animaciones, secciones, estilos, datos y lógica de la aplicación para facilitar el mantenimiento y la escalabilidad del proyecto.
 
 ---
 
-### GSAP + Lenis en lugar de Framer Motion
+## Decisiones de Arquitectura
 
-**Decisión:** GSAP (GreenSock Animation Platform) como motor de animaciones
+### Astro como Framework Principal
 
-**Justificación:**
+El proyecto fue desarrollado con **Astro** utilizando generación estática (SSG), ya que el contenido no requiere renderizado dinámico.
 
-- GSAP es vanilla JS, no está atada a un framework
-- ScrollTrigger de GSAP proporciona precisión en scroll synchronization
-- Lenis intercepta el scroll nativo y proporciona RAF smooth, permitiendo hijacking de scroll
-- Framer Motion requeriría React en el cliente (aumentaría bundle size)
-- GSAP sin plugins innecesarios mantiene footprint bajo (~30KB gzipped)
+Esta decisión permitió:
 
-Impacto: Animaciones suaves a 60fps sin sacrificar rendimiento.
-
----
-
-### Lenis Scroll en lugar de CSS scroll-behavior
-
-**Decisión:** @studio-freight/Lenis para scroll suave
-
-**Justificación:**
-
-- CSS `scroll-behavior: smooth` es básico y no-synchronizable
-- Lenis proporciona inercia natural + easing customizable
-- Permite hijacking para efectos sobre scroll (pausar animaciones en mobile, por ejemplo)
-- Funciona diferente en iOS 15+ (respeta scroll physics nativo del sistema)
-- En desktop: scroll se siente "premium" vs comportamiento por defecto
-
-Impacto: Experiencia de navegación cohesiva.
+- Reducir el JavaScript enviado al cliente.
+- Mejorar los tiempos de carga inicial.
+- Optimizar Core Web Vitals.
+- Mantener una arquitectura simple y escalable.
 
 ---
 
-### Sincronización GSAP + Lenis
+### GSAP como Motor de Animaciones
 
-**Desafío técnico crítico:**
+Las animaciones fueron implementadas con **GSAP** debido a su precisión sobre el control del timeline y su integración independiente del framework.
 
-Scroll nativo vs Lenis smooth vs GSAP ScrollTrigger pueden crear conflictos. Solución implementada:
-
-```
-1. Lenis inicializa primero (intercepta scroll nativo)
-2. Proporciona smooth scroll value en RAF
-3. GSAP ScrollTrigger lee posición de Lenis (no del scroll nativo)
-4. Animaciones se lanzan según posición suave de Lenis
-5. Resultado: scroll suave + animaciones pixel-perfect
-```
-
-Orden inverso causa parpadeo y desincronización.
+Se utilizó **ScrollTrigger** para sincronizar las animaciones con el desplazamiento de la página sin depender de React u otras librerías de hidratación.
 
 ---
 
-## Instalación y Setup
+### Lenis para la Navegación
+
+Se integró **Lenis** para proporcionar un desplazamiento más fluido y consistente entre navegadores.
+
+Su integración con GSAP permitió sincronizar el scroll y las animaciones manteniendo una experiencia estable y un rendimiento elevado.
+
+---
+
+### Optimización de Recursos
+
+El proyecto fue optimizado mediante diferentes estrategias:
+
+- Imágenes convertidas a WebP.
+- Lazy Loading.
+- Generación estática.
+- Componentización.
+- Carga diferida de scripts.
+- Optimización para Core Web Vitals.
+
+---
+
+## Instalación
 
 ### Requisitos
 
-- Node.js v18+
-- npm o yarn
+- Node.js 18 o superior
+- npm
 
-### Pasos de Instalación
+### Clonar el proyecto
 
 ```bash
 git clone https://github.com/alexanderramosweb/studio-arch-premium.git
+
 cd studio-arch-premium
+```
 
+### Instalar dependencias
+
+```bash
 npm install
+```
 
+### Iniciar el servidor de desarrollo
+
+```bash
 npm run dev
 ```
 
-La aplicación estará disponible en `http://localhost:4321`
+La aplicación estará disponible en:
 
-### Build para Producción
+```text
+http://localhost:4321
+```
+
+### Build de Producción
 
 ```bash
 npm run build
@@ -366,203 +251,52 @@ npm run build
 npm run preview
 ```
 
-Genera carpeta `/dist` con HTML estático minificado.
-
-### Despliegue
-
-Conectado a Netlify. Cada push a `main` despliega automáticamente.
+El proyecto genera una versión optimizada dentro del directorio `dist/`, lista para desplegarse en cualquier servicio de hosting estático.
 
 ---
 
-## Desglose de Animaciones por Sección
+## Implementaciones Destacadas
 
-### Navbar
+El proyecto incorpora distintas soluciones orientadas a mejorar la experiencia de usuario sin comprometer el rendimiento.
 
-- Sticky positioning con scroll reveal (opacidad: 0 → 1 al descender)
-- Transición suave de fondo (rgba cambio en 0.3s)
-
-### Hero
-
-- Paralaje de imagen (velocity diferente al scroll)
-- Fade-in de headline (opacity 0 → 1, duration 0.8s)
-- Scale entrance de CTA (scale 0.8 → 1.0, delay 0.4s)
-
-### Gallery
-
-- Stagger reveal: cada imagen entra con delay de 0.1s
-- Hover effect: scale 1.05 + brightness +10%
-- Lazy load trigger: GSAP detecta viewport entry, carga imagen
-
-### Services
-
-- Counter animation: número salta 0 → valor final (1.2s)
-- Icon entrance: SVG scale + rotate simultáneo
-- List stagger: cada punto aparece en cascada (0.15s delay)
-
-### Quote
-
-- Split text animation: cada palabra vuela izq → derecha
-- Paralaje subtle: quote se mueve ligeramente diferente a background
-- Color gradient fade: cambio gradual en hue al scroll
-
-### Contact CTA
-
-- Pulse animation: escala 1.0 → 1.03 → 1.0 (loop 2s)
-- Underline expansion: width 0% → 100% en hover (0.3s)
+| Implementación                | Descripción                                                                 |
+| :---------------------------- | :-------------------------------------------------------------------------- |
+| Animaciones basadas en scroll | Sincronizadas mediante GSAP y ScrollTrigger.                                |
+| Smooth Scroll                 | Navegación fluida utilizando Lenis.                                         |
+| Lazy Loading                  | Carga diferida de imágenes y recursos no críticos.                          |
+| Responsive Design             | Adaptación para Desktop, Tablet y Mobile siguiendo un enfoque Mobile First. |
+| Optimización de recursos      | Imágenes en formato WebP y reducción del JavaScript enviado al cliente.     |
+| SEO Técnico                   | HTML semántico, metadatos y estructura preparada para indexación.           |
 
 ---
 
-## Problemas Resueltos
+## Retos Técnicos
 
-### Desafío 1: Animaciones Complejas sin Sacrificar PageSpeed
+### Optimizar el rendimiento sin sacrificar la experiencia visual
 
-**Problema:** GSAP + Lenis típicamente reduce PageSpeed a 80-85.
-
-**Solución Implementada:**
-
-- Minimizar GSAP: solo ScrollTrigger + Tween, no extras
-- Code split: animaciones cargan lazy (post-render)
-- Lenis configurado con minimal DOM thrashing
-- Debounce de resize listeners
-- Prefetch de crítico, lazy loading de no-crítico
-
-**Resultado:** 98 PageSpeed con stack complejo de animaciones.
+Se implementó una estrategia basada en generación estática (SSG), carga diferida de recursos y optimización de imágenes para mantener una interfaz altamente interactiva con excelentes métricas de Lighthouse.
 
 ---
 
-### Desafío 2: Galería de Imágenes Premium sin Perder Rendimiento
+### Sincronizar animaciones y desplazamiento
 
-**Problema:** 12+ imágenes de arquitectura HD (3-5MB cada una).
-
-**Solución:**
-
-- Conversión a WebP (70% reducción de tamaño)
-- JPEG progresivo como fallback
-- Lazy load con Intersection Observer
-- srcset para diferentes viewports
-- Imagemin compression (batch processing)
-
-**Resultado:** Galería carga en <2s, imágenes se cargan on-demand.
+La integración entre GSAP, ScrollTrigger y Lenis permitió mantener una sincronización precisa entre el scroll y las animaciones, evitando inconsistencias visuales durante la navegación.
 
 ---
 
-### Desafío 3: Sincronizar Lenis + GSAP sin Conflictos
+### Reducir el peso de los recursos
 
-**Problema:** Dos sistemas de scroll pueden desincronizarse.
-
-**Solución:**
-
-- Registrar ScrollTrigger con GSAP primero
-- Inicializar Lenis segundo
-- Conectar RAF de Lenis a ScrollTrigger update
-- Deshabilitar scroll nativo completamente
-
-**Resultado:** Animaciones perfectly synchronized con smooth scroll.
+Todas las imágenes fueron optimizadas en formato WebP y cargadas bajo demanda mediante Lazy Loading para disminuir el tiempo de carga inicial.
 
 ---
 
-## Flujo de Navegación
+## Información de Contacto
 
-La estructura de la página comunica una narrativa visual:
+Si deseas conocer más sobre este proyecto o conversar sobre oportunidades profesionales y colaboraciones, puedes contactarme a través de los siguientes canales.
 
-```
-Navbar (Navegación sticky, siempre visible)
-  ↓
-Hero (Impacto visual inmediato, parallax)
-  ↓
-About (Contexto: filosofía del estudio)
-  ↓
-Features (Por qué es diferente: 3 ventajas clave)
-  ↓
-Gallery (Trabajo real: portafolio de proyectos)
-  ↓
-Featured Project (Proyecto destacado: detalles profundos)
-  ↓
-Quote (Filosofía: declaración de visión)
-  ↓
-Contact CTA (Conversión: "Solicitar información")
-```
-
-Cada sección tiene propósito específico. No hay decoración sin función.
-
----
-
-## Rendimiento en Diferentes Dispositivos
-
-### Desktop (Conexión Rápida - 50 Mbps)
-
-- LCP: 0.9s
-- FCP: 0.6s
-- Animaciones: 60fps sostenido
-
-### Mobile (4G - 15 Mbps)
-
-- LCP: 2.8s
-- FCP: 1.8s
-- Animaciones: 60fps (Lenis desabilita en scroll pesado)
-
-### Conexión Lenta (3G - 1 Mbps)
-
-- LCP: 5.2s
-- FCP: 4.1s
-- Animaciones: 30fps (degrada elegantemente)
-
-Nota: Lenis detecta capacidad del dispositivo y ajusta velocidad de animación automáticamente.
-
----
-
-## SEO y Estructura de Datos
-
-Meta tags optimizados en cada página:
-
-- Open Graph (redes sociales)
-- Twitter Card
-- Canonical URL
-
----
-
-## Instalar y Ejecutar
-
-```bash
-# Clonar
-git clone https://github.com/alexanderramosweb/studio-arch-premium.git
-
-# Instalar dependencias
-cd studio-arch-premium
-npm install
-
-# Desarrollo local
-npm run dev
-
-# Ver en http://localhost:4321
-```
-
----
-
-## 🔗 Enlaces del Proyecto
-
-| Recurso                                                                                                                     | Enlace                                                                                                                                           |
-| :-------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------- |
-| <img src="https://img.shields.io/badge/Sitio_en_Vivo-000000?style=for-the-badge&logo=netlify&logoColor=00C7B7" height="25"> | <a href="https://studio-arch-premium.netlify.app/" target="_blank" rel="noopener noreferrer">studio-arch-premium.netlify.app</a>                 |
-| <img src="https://img.shields.io/badge/Repositorio-000000?style=for-the-badge&logo=github&logoColor=white" height="25">     | <a href="https://github.com/alexanderramosweb/studio-arch-premium" target="_blank" rel="noopener noreferrer">studio-arch-premium.netlify.app</a> |
-| <img src="https://img.shields.io/badge/Producción-000000?style=for-the-badge&logo=netlify&logoColor=00C7B7" height="25">    | Desplegado en Netlify (auto-deploy en cada push)                                                                                                 |
-
----
-
-## ✉ Para Trabajar Juntos
-
-Este desarrollo demuestra habilidades avanzadas en:
-
-- **Animaciones complejas:** Interacciones fluidas a 60fps.
-- **SEO Técnico:** Estructura semántica lista para indexación óptima.
-- **Performance:** Carga ultrarrápida sin sacrificar el impacto visual.
-- **Clean Code:** Arquitectura escalable y fácil de mantener.
-
-Si buscas un proyecto con impacto visual, rendimiento excepcional o asesoría en desarrollo arquitectónico y colaboraciones, puedes contactarme directamente:
-
-| Contacto                                                                                                               | Enlace                                                                                                                       |
-| :--------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------- |
-| <img src="https://img.shields.io/badge/Gmail-000000?style=for-the-badge&logo=gmail&logoColor=white" height="25">       | <a href="mailto:alexander.digitaldev@gmail.com" target="_blank" rel="noopener noreferrer">alexander.digitaldev@gmail.com</a> |
-| <img src="https://img.shields.io/badge/WhatsApp-000000?style=for-the-badge&logo=whatsapp&logoColor=white" height="25"> | <a href="https://wa.me/573127087551" target="_blank" rel="noopener noreferrer">+57 3127087551</a>                            |
-| <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white" height="25"> | <a href="https://linkedin.com/in/TUPERFIL" target="_blank" rel="noopener noreferrer">linkedin.com/in/TUPERFIL</a>            |
-| <img src="https://img.shields.io/badge/Behance-000000?style=for-the-badge&logo=behance&logoColor=0057ff" height="25">  | <a href="https://behance.net/TUPERFIL" target="_blank" rel="noopener noreferrer">Caso de Estudio UI/UX en Behance</a>        |
+| Medio    | Enlace                                                                                                                       |
+| :------- | :--------------------------------------------------------------------------------------------------------------------------- |
+| Email    | <a href="mailto:alexander.digitaldev@gmail.com" target="_blank" rel="noopener noreferrer">alexander.digitaldev@gmail.com</a> |
+| WhatsApp | <a href="https://wa.me/573127087551" target="_blank" rel="noopener noreferrer">+57 312 708 7551</a>                          |
+| LinkedIn | <a href="https://linkedin.com/in/TUPERFIL" target="_blank" rel="noopener noreferrer">linkedin.com/in/TUPERFIL</a>            |
+| Behance  | <a href="https://behance.net/TUPERFIL" target="_blank" rel="noopener noreferrer">behance.net/TUPERFIL</a>                    |
